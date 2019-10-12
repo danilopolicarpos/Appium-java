@@ -2,7 +2,7 @@ package capabilities;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import utils.Utils;
+import capabilities.Load_capabilities;
 
 import java.io.File;
 
@@ -20,8 +20,8 @@ public enum AndroidDevicesCapabilities {
     }
 
     public DesiredCapabilities getAndroidCapabilitiesFromPlataform() {
-        DesiredCapabilities androidCapabilities = Utils.pathToDesiredCapabilitites(this.path);
-        androidCapabilities.setCapability("app", new File("resources/apps/Appium.apk").getAbsolutePath());
+        DesiredCapabilities androidCapabilities = Load_capabilities.pathToDesiredCapabilitites(this.path);
+        androidCapabilities.setCapability("app", new File("resources/apps/app-debug.apk").getAbsolutePath());
         return androidCapabilities;
     }
 
