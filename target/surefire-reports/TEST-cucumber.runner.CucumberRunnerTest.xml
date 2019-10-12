@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumber.runner.CucumberRunnerTest" time="26.862" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumber.runner.CucumberRunnerTest" time="26.446" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="--tags @teste"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dcucumber.options=--tags @teste -Denv.PLATAFORM=ANDROID_OREO_DEV"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dcucumber.options=--tags @teste -Denv.PLATAFORM=ANDROID_OREO"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -59,12 +59,12 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="env.PLATAFORM" value="ANDROID_OREO_DEV"/>
+    <property name="env.PLATAFORM" value="ANDROID_OREO"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Dado que tenha  aberto o app" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0.004"/>
+  <testcase name="Dado que tenha  aberto o app" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0.001"/>
   <testcase name="Quando clicar no formulário" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0"/>
   <testcase name="E e colocar o meu nome &quot;Fulado&quot;" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0"/>
   <testcase name="Então salvar a alteração" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0"/>
-  <testcase name="Cenário: Portador com apenas um cartão para aviso de viagem" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0.24"/>
+  <testcase name="Cenário: Portador com apenas um cartão para aviso de viagem" classname="Cenário: Portador com apenas um cartão para aviso de viagem" time="0.2"/>
 </testsuite>

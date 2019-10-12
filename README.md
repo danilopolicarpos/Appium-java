@@ -17,6 +17,8 @@ QA Mobile is made with Appium.
 
 3. Run implemented ios tests: `$ mvn clean test -Dcucumber.options="--tags @implementedForIOS" -Denv.PLATAFORM=IPHONE_8_DEV`
 
+4. Generate reports: `mvn allure:serve`
+
 ## IMPORTANT
 
 * Before run the tests you need to start android device or emulator and appium server.
@@ -36,6 +38,7 @@ QA Mobile is made with Appium.
 
 * **[Appium Docs](http://appium.io/)**
 * **[Selenium Docs](https://www.seleniumhq.org/docs/)**
+* **[Allure reports](https://github.com/allure-framework/allure-maven)**
 
 
 

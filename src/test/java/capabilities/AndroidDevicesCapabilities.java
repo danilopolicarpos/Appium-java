@@ -9,7 +9,7 @@ import java.io.File;
 public enum AndroidDevicesCapabilities {
 
 
-    ANDROID_OREO_DEV("resources/capabilities/android-oreo-dev.json"),
+    ANDROID_OREO("resources/capabilities/android-oreo.json"),
     ANDROID_FISICO("resources/capabilities/android-fisico.json");
 
 
