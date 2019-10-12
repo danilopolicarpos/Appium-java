@@ -36,7 +36,7 @@ public class DriverFactoryManager {
                 IOSDevicesCapabilities.showAvaliableIphoneDevices();
                 System.exit(1);
             } catch (UnreachableBrowserException e) {
-                System.out.println(" ==== AVISO : Por favor verifique se foi passado uma url válida para executar os testes ou se já inicializou o Appium. ====");
+                System.out.println(" ==== AVISO : Please start appium server, use appium in command line. ====");
                 System.exit(1);
             } catch (MalformedURLException e) {
                 System.out.println(" ==== AVISO : Por favor verifique a url que foi informada para executar os testes. ====");

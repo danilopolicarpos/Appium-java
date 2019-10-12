@@ -1,8 +1,8 @@
 #QA Mobile
 
-QA Mobile is made with Appium.
+Project Appium maven with cucumber for Android and iOS
 
-## Components
+## Requirements
 
 * Java 8
 * Appium 1.8.1
@@ -11,11 +11,11 @@ QA Mobile is made with Appium.
 
 ## Running Tests
 
-1. Start appium server: `$ appium` ( Use method appiumServerUp to start appium server automatically, and appiumServerDown to close)
+1. Start appium server: `$ appium` 
 	
-2. Run implemented android tests: `$ mvn clean test -Dcucumber.options="--tags @implementedForAndroid" -Denv.PLATAFORM=ANDROID_OREO`
+2. Run implemented android tests: `$ mvn clean test -Dcucumber.options="--tags @here_tags_for_Android" -Denv.PLATAFORM=ANDROID_OREO`
 
-3. Run implemented ios tests: `$ mvn clean test -Dcucumber.options="--tags @implementedForIOS" -Denv.PLATAFORM=IPHONE_8`
+3. Run implemented ios tests: `$ mvn clean test -Dcucumber.options="--tags @here_tags_for_IOS" -Denv.PLATAFORM=IPHONE_8`
 
 4. Generate reports: `mvn allure:serve`
 
@@ -23,16 +23,6 @@ QA Mobile is made with Appium.
 
 * Before run the tests you need to start android device or emulator and appium server.
 
-
-## OPERATIONAL SYSTEMS FOR TESTS
-
-###ANDROID
-
-* ANDROID_OREO_DEV (Simulator)
-
-###IOS
-
-* IPHONE_6S_DEV (Simulator)
 
 ## Documentation
 
