@@ -1,0 +1,9 @@
+steps/definitions/TesteSteps.class
+utils/Utils.class
+screens/base/BaseScreen.class
+capabilities/AndroidDevicesCapabilities.class
+utils/Utils$1.class
+utils/DriverFactoryManager.class
+screens/InitialScreen.class
+capabilities/IOSDevicesCapabilities.class
+cucumber/runner/CucumberRunnerTest.class

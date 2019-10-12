@@ -1,0 +1,8 @@
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/cucumber/runner/CucumberRunnerTest.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/capabilities/AndroidDevicesCapabilities.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/screens/base/BaseScreen.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/screens/InitialScreen.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/steps/definitions/TesteSteps.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/utils/Utils.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/capabilities/IOSDevicesCapabilities.java
+/Users/danilopolicarpo/dev/appium-maven/src/test/java/utils/DriverFactoryManager.java
