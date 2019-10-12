@@ -1,6 +1,6 @@
 {
   "platformName": "iOS",
-  "platformVersion": "12.0",
+  "platformVersion": "13.1",
   "deviceName": "iPhone 8",
   "automationName": "XCUITest",
   "newCommandTimeout": 5,

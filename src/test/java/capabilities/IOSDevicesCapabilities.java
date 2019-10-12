@@ -8,7 +8,7 @@ import java.io.File;
 
 public enum IOSDevicesCapabilities {
 
-    IPHONE_8_DEV("capabilities/iphone-8-dev.json"),
+    IPHONE_8_DEV("resources/capabilities/iphone-8-dev.json"),
     IPHONE_FISICO("capabilities/iphone-fisico.json");
 
     private String path;
@@ -19,7 +19,7 @@ public enum IOSDevicesCapabilities {
 
     public DesiredCapabilities getIOSCapabilitiesFromPlataform() {
         DesiredCapabilities iosCapabilities = Utils.pathToDesiredCapabilitites(this.path);
-        iosCapabilities.setCapability("app", new File("apps/Appium.app").getAbsolutePath());
+        iosCapabilities.setCapability("app", new File("resources/apps/TestApp.app").getAbsolutePath());
         return iosCapabilities;
     }
 
