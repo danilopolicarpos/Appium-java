@@ -11,7 +11,7 @@ import capabilities.DriverFactoryManager;
 @RunWith(Cucumber.class)
 @CucumberOptions(monochrome = true, snippets = SnippetType.CAMELCASE,
         features = "features",
-        glue = "steps/definitions",
+        glue = "StepsDefinitions",
         tags = {"@teste","~@unit", "~@notIntegrated"},
         plugin = {"io.qameta.allure.cucumberjvm.AllureCucumberJvm", "pretty"})
 
