@@ -31,7 +31,7 @@ Project Appium maven with cucumber for Android and iOS
 * **[Selenium Docs](https://www.seleniumhq.org/docs/)**
 * **[Allure reports](https://github.com/allure-framework/allure-maven)**
 * **[cucumber.io](https://cucumber.io/docs/guides/10-minute-tutorial/)**
-
+* **[pagefactory](https://github.com/appium/java-client/blob/master/docs/Page-objects.md)**
 
 
 
