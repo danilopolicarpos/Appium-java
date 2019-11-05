@@ -1,14 +1,13 @@
 package screens;
 
 
-import io.appium.java_client.pagefactory.WithTimeout;
-import screens.base.BaseScreen;
+import java.util.concurrent.TimeUnit;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.WithTimeout;
+import screens.base.BaseScreen;
 
-
-
-import java.util.concurrent.TimeUnit;
 
 public class Lista_filmes extends BaseScreen {
 
@@ -28,15 +27,12 @@ public class Lista_filmes extends BaseScreen {
     }
 
     public void digite_nome() {
-
        this.digite_nome.sendKeys("spider");
     }
 
     public void btn_search() {
-
         this.btn_search.click();
     }
-
-
+  
 
 }

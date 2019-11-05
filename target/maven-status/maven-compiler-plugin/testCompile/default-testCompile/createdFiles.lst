@@ -5,5 +5,5 @@ capabilities/Load_capabilities.class
 capabilities/Load_capabilities$1.class
 capabilities/IOSDevicesCapabilities.class
 screens/Lista_filmes.class
-steps/definitions/Lista_filmes_steps.class
 cucumber/runner/CucumberRunnerTest.class
+StepsDefinitions/Lista_filmes_steps.class

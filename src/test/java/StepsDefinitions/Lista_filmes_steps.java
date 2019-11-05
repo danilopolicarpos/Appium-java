@@ -17,7 +17,7 @@ public class Lista_filmes_steps {
 	
 	@Dado("^que estou na lista de filmes$")
 	public void queEstouNaListaDeFilmes() throws Throwable {
-		this.lista.home();;
+		this.lista.home();
 	   
 	}
 

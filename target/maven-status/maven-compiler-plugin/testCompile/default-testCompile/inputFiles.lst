@@ -1,8 +1,8 @@
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/screens/Lista_filmes.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/capabilities/DriverFactoryManager.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/cucumber/runner/CucumberRunnerTest.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/capabilities/AndroidDevicesCapabilities.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/screens/base/BaseScreen.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/steps/definitions/Lista_filmes_steps.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/capabilities/Load_capabilities.java
-/Users/danilopolicarpo/dev/appium-maven/src/test/java/capabilities/IOSDevicesCapabilities.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/capabilities/AndroidDevicesCapabilities.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/StepsDefinitions/Lista_filmes_steps.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/capabilities/Load_capabilities.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/cucumber/runner/CucumberRunnerTest.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/screens/Lista_filmes.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/screens/base/BaseScreen.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/capabilities/IOSDevicesCapabilities.java
+/Users/danilopolicarpo/dev/Appium-java/src/test/java/capabilities/DriverFactoryManager.java

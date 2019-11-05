@@ -14,20 +14,20 @@ import org.openqa.selenium.remote.UnreachableBrowserException;
 
 public class DriverFactoryManager {
 
-    private static AppiumDriver<?> appiumDriver;
+    private static AppiumDriver<?> Driver;
     private static AppiumDriverLocalService service;
 
 
     public static AppiumDriver<?> startDriverByMavenParameter(String mavenEnvironment) {
 
-        if (appiumDriver == null) {
+        if (Driver == null) {
 
             try {
 
                 if (mavenEnvironment.contains("ANDROID")) {
-                    appiumDriver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), AndroidDevicesCapabilities.valueOf(mavenEnvironment).getAndroidCapabilitiesFromPlataform());
+                    Driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), AndroidDevicesCapabilities.valueOf(mavenEnvironment).getAndroidCapabilitiesFromPlataform());
                 } else if (mavenEnvironment.contains("IPHONE")) {
-                    appiumDriver = new IOSDriver<>(new URL("http://localhost:4723/wd/hub"), IOSDevicesCapabilities.valueOf(mavenEnvironment).getIOSCapabilitiesFromPlataform());
+                    Driver = new IOSDriver<>(new URL("http://localhost:4723/wd/hub"), IOSDevicesCapabilities.valueOf(mavenEnvironment).getIOSCapabilitiesFromPlataform());
                 }
 
             } catch (IllegalArgumentException e) {
@@ -44,27 +44,27 @@ public class DriverFactoryManager {
             }
         }
 
-        return appiumDriver;
+        return Driver;
     }
 
     public static AppiumDriver<?> getDriver() {
-        return appiumDriver;
+        return Driver;
     }
 
     public static void reLaunchApp() {
-        if (appiumDriver != null) {
-            appiumDriver.launchApp();
+        if (Driver != null) {
+            Driver.launchApp();
         }
     }
 
     public static void quitDriver() {
-        if (appiumDriver != null) {
-            appiumDriver.quit();
+        if (Driver != null) {
+            Driver.quit();
         }
     }
 
     public static String getPageHierarchy() {
-        return appiumDriver.getPageSource();
+        return Driver.getPageSource();
     }
 
     public static void appiumServerUp() {
