@@ -3,3 +3,4 @@ target
 .allure
 appium-maven.iml
 target/.*
+.allure
