@@ -1,8 +1,0 @@
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/screens/Lista_filmes.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/capabilities/IOSDevicesCapabilities.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/capabilities/Load_capabilities.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/capabilities/DriverFactoryManager.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/screens/base/BaseScreen.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/stepsdefinitions/Lista_filmes_steps.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/capabilities/AndroidDevicesCapabilities.java
-/Users/danilopolicarpo/dev/Appium-java/src/test/java/dp/appiumjava/runner/CucumberRunnerTest.java

@@ -1,9 +1,0 @@
-dp/appiumjava/stepsdefinitions/Lista_filmes_steps.class
-dp/appiumjava/capabilities/Load_capabilities$1.class
-dp/appiumjava/capabilities/IOSDevicesCapabilities.class
-dp/appiumjava/capabilities/Load_capabilities.class
-dp/appiumjava/screens/Lista_filmes.class
-dp/appiumjava/screens/base/BaseScreen.class
-dp/appiumjava/capabilities/DriverFactoryManager.class
-dp/appiumjava/runner/CucumberRunnerTest.class
-dp/appiumjava/capabilities/AndroidDevicesCapabilities.class
