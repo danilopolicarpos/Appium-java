@@ -1,10 +1,10 @@
-package cucumber.runner;
+package dp.appiumjava.runner;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import capabilities.DriverFactoryManager;
+import dp.appiumjava.capabilities.DriverFactoryManager;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(monochrome = true, snippets = SnippetType.CAMELCASE,
         features = "features",
-        glue = "StepsDefinitions",
+        glue = "dp.appiumjava/stepsdefinitions",
         tags = {"@teste","~@unit", "~@notIntegrated"},
         plugin = {"io.qameta.allure.cucumberjvm.AllureCucumberJvm", "pretty"})
 

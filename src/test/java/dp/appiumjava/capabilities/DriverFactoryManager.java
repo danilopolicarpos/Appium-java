@@ -1,11 +1,9 @@
-package capabilities;
+package dp.appiumjava.capabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 
-import capabilities.AndroidDevicesCapabilities;
-import capabilities.IOSDevicesCapabilities;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;

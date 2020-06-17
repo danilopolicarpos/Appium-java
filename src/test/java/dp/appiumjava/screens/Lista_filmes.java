@@ -1,12 +1,12 @@
-package screens;
+package dp.appiumjava.screens;
 
 
 import java.util.concurrent.TimeUnit;
 
+import dp.appiumjava.screens.base.BaseScreen;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.WithTimeout;
-import screens.base.BaseScreen;
 
 
 public class Lista_filmes extends BaseScreen {

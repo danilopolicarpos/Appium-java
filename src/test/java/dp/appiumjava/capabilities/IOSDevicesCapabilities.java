@@ -1,8 +1,6 @@
-package capabilities;
+package dp.appiumjava.capabilities;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-import capabilities.Load_capabilities;
 
 import java.io.File;
 

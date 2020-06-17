@@ -1,13 +1,11 @@
-package StepsDefinitions;
+package dp.appiumjava.stepsdefinitions;
 
 import cucumber.api.java.pt.*;
-import screens.Lista_filmes;
+import dp.appiumjava.screens.Lista_filmes;
 
 
 public class Lista_filmes_steps {
-	
-	
-	
+
 	Lista_filmes lista;
 
     public Lista_filmes_steps() {

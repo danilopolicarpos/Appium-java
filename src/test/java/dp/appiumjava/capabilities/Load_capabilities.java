@@ -1,4 +1,4 @@
-package capabilities;
+package dp.appiumjava.capabilities;
 
 import java.io.FileReader;
 import java.lang.reflect.Type;

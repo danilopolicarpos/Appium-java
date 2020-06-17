@@ -1,7 +1,6 @@
 {
   "platformName": "Android",
-  "deviceName": "Device",
-  "platformVersion": "7.0",
+  "deviceName": "oreo",
   "automationName": "UiAutomator2",
   "udid": "emulator-5554",
   "avd": "oreo",
