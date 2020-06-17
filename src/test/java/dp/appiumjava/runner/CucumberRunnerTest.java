@@ -20,13 +20,11 @@ public class CucumberRunnerTest {
 
     @BeforeClass
     public static void tearUp() {
-//        DriverFactoryManager.appiumServerUp();
         DriverFactoryManager.startDriverByMavenParameter(System.getProperty("environment"));
     }
 
     @AfterClass
     public static void tearDown() {
-//        DriverFactoryManager.appiumServerDown();
         DriverFactoryManager.quitDriver();
     }
 

@@ -65,15 +65,6 @@ public class DriverFactoryManager {
         return Driver.getPageSource();
     }
 
-    public static void appiumServerUp() {
-        service = AppiumDriverLocalService.buildDefaultService();
-        service.start();
-    }
 
-
-    public static void appiumServerDown() {
-        service = AppiumDriverLocalService.buildDefaultService();
-        service.stop();
-    }
 }
 
